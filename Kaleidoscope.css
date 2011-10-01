@@ -1,0 +1,188 @@
+/*
+	@theme Kaleidoscope
+	@override-placeholders html, xml, css
+	@author Alberto Calvo
+*/
+
+:document-base {
+	color: #f8f8f8;
+	background-color: #0c1021;
+	insertion-point-color: #fff;
+	selection-background-color: #253b76;
+}
+
+/* @group Generic */
+	tag, sourcecode, css, python, ruby, javascript {
+		spell-check: disabled;
+	}
+	 
+	tag, 
+	tag > string > punctuation, 
+	attribute-name,
+	entity {
+		color: #7f90aa;
+	}
+	 
+	string {
+		color: #61ce3c;
+	} 
+	 
+	comment, 
+	comment *,
+	comment.block,
+	comment.line.double-slash,
+	comment > punctuation,
+	tag.doctype, 
+	tag.doctype > *, 
+	tag.doctype > string.quoted {
+		color: #557;
+	}
+	 
+	literal.string { 
+		color: #61ce3c;
+	}
+	 
+	square-brace {
+		color: hsla(240, 100%, 93%, .9);
+	}
+	 
+	processing-instruction {
+		color: #aeaeae;
+	}
+/* @end */
+
+
+/* @group HTML */
+	html {
+		spell-check: enabled;
+	}
+/* @end */
+
+
+/* @group CSS */
+	css.selector,
+	css.selector entity punctuation {
+		color: #9283ff;
+	}
+	
+	css property-name {
+		color: #d8d3f1;
+	}
+	
+	css property-value {
+		color: #6ec200;
+	}
+	
+		css property-value > constant.numeric {
+			background-color: hsla(85, 100%, 38%, .1);
+		}
+	
+	css pseudo-class {
+		color: #d1b7ff;
+		background-color: hsla(243, 100%, 97%, .07);
+	}
+	
+	css color {
+		color: #f7ec21;
+	}
+	
+		css support.function.color > name {
+			background-color: hsla(56, 93%, 54%, .05);
+			font-weight: bold;
+		}
+	 
+	css group-start,
+	css comment, 
+	css comment punctuation {
+		color: #557;
+	}
+	
+	css group-start name  { 
+		color: #9ecffd; 
+		font-weight: bold;
+	}
+	
+	css.at-rule keyword.control {
+		color: #de5a00;
+		font-weight: bold;
+	}
+	
+	css.at-rule,
+	css.at-rule string,
+	css.at-rule string punctuation,
+	media.css > block > punctuation,
+	css.at-rule block.keyframes > punctuation {
+		color: #ff9a83;
+	}
+	
+		/*Curly braces*/
+		css.at-rule > block punctuation.begin,
+		css.at-rule > block punctuation.end { 
+			color: #fff; 
+		}
+	
+		/*Comments*/
+		css.at-rule > comment.block punctuation.begin,
+		css.at-rule > comment.block punctuation.end {
+			color: #557;
+		}
+	
+/*    css support.function.url,
+	css punctuation.section.function {
+		color: #9ecffd; 
+	}*/
+	
+	/*URLs*/
+	css support.function.misc parameter.misc,
+	css support.function.misc string.quoted {
+		color: #4f9cf8;
+		background-color: hsla(212, 92%, 64%, .05);
+	}
+	
+	/*Higlighting quotes to remember you to DELETE them*/
+	css support.function.misc .quote {
+		color: #f81411;
+	}
+	
+	/*css zkeyword.other.italic {
+		font-style: italic;
+	}
+	
+	css zkeyword.other.bold {
+		font-weight: bold;
+	}*/
+	
+	keyword.important.css {
+		color: #ff7ee8 !important;
+	} 
+/* @end */
+
+
+/* @group ExpressionEngine Tags */
+	ee.tag > name, 
+	ee.tag > punctuation,
+	ee.tag > string,
+	ee.tag.conditional {
+		color: #8ce999;
+	}
+	 
+	ee.tag attribute-name  {
+	  color: #9ecffd;
+	  font-weight: bold; 
+	}
+	
+	ee.tag attribute { 
+	  color: #d144ca;
+	}
+	 
+	ee.tag.self-closing.conditional {
+		background-color: hsla(223, 52%, 30%, .35);
+	}
+	 
+	ee.tag.self-closing,
+	ee.tag.self-closing > name, 
+	ee.tag.self-closing > punctuation, 
+	ee.tag.self-closing attribute-name {
+		color:#9ecffd;
+	}
+/* @end */
