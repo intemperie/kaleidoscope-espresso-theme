@@ -10,7 +10,10 @@ To the moment, I just focused into improving HTML and CSS styling. However, I fo
 
 You can contact me at [Twitter][twitter].
 
+Special thanks to [Anthony Short][tony] for letting me use Quiet Light as a base for this theme.
+
 [esp]: http://macrabbit.com/espresso/
 [kscp]: http://www.kaleidoscopeapp.com/
 [sofa]: http://www.madebysofa.com/
 [twitter]: http://twitter.com/pumpkin
+[tony]: http://anthonyshort.com.au/
