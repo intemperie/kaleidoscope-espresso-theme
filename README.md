@@ -1,6 +1,6 @@
 # Kaleidoscope
 
-Kaleidoscope is an [Espresso][esp] theme using a dark background and vibrant colors, inspired in [Kaleidoscope app][kscp] by [Sofa][sofa].
+Kaleidoscope is an [Espresso][esp] theme using a dark background and vibrant colors, inspired in [Kaleidoscope app website][kscp] by [Sofa][sofa].
 
 To the moment, I just focused into improving HTML and CSS styling. However, I found this a very pleasant experience, and probably find myself adding some more stuff for Javascript, PHP, Markdown and maybe Twig.
 
